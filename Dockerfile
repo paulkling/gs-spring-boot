@@ -16,7 +16,7 @@ RUN \
   apt-get install -y oracle-java7-installer
 
 # Define mountable directories.
-VOLUME ["."]
+VOLUME [".."]
 
 # Define working directory.
 WORKDIR /data
