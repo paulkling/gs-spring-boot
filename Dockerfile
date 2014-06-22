@@ -14,12 +14,13 @@ RUN \
   add-apt-repository -y ppa:webupd8team/java && \
   apt-get update && \
   apt-get install -y oracle-java7-installer
+  apt-get install git
 
 # Define mountable directories.
-VOLUME /root/workspace/paulkling/gs-spring-boot
+VOLUME /data
 
 # Define working directory.
-WORKDIR /root/workspace/paulkling/gs-spring-boot
+WORKDIR /data
 
 # Define default command.
 CMD ["gradlew"]
