@@ -13,6 +13,7 @@ build:
     - chmod 777 gradlew
     - ls -la
   run: 
+    - pwd
     - cd gs-spring-boot
     - gradlew build 
 
