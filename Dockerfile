@@ -20,7 +20,7 @@ RUN \
 VOLUME /data
 
 # Define working directory.
-WORKDIR /data
+WORKDIR /data/gs-spring-boot
 
 # Define default command.
 CMD ["gradlew"]
