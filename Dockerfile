@@ -22,4 +22,4 @@ VOLUME ["/data"]
 WORKDIR /root/workspace/paulkling/gs-spring-boot
 
 # Define default command.
-CMD ["bash"]
+CMD ["gradlew"]
