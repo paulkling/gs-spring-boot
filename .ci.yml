@@ -4,12 +4,13 @@ environment:
   
 build:
   before:
-    - git clone https://github.com/paulkling/gs-spring-boot.git
-    - cd gs-spring-boot
   info:
     - echo "Env:" ; env
     - java -version
+    - git clone https://github.com/paulkling/gs-spring-boot.git
+    - cd gs-spring-boot
     - ls -la
-    - chmod 777 gs-spring-boot/gradlew
+    - chmod 777 gradlew
+    - ls -la
   run: gradlew build 
 
