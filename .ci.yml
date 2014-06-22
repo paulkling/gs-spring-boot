@@ -3,11 +3,13 @@ environment:
   language_versions: 1.6.0_24
   
 build:
+  before:
+    - git clone https://github.com/paulkling/gs-spring-boot.git
+    - cd gs-spring-boot
   info:
     - echo "Env:" ; env
     - java -version
-    - git clone https://github.com/paulkling/gs-spring-boot.git
     - ls -la
     - chmod 777 gs-spring-boot/gradlew
-  run: cd gs-spring-boot && gradlew build 
+  run: gradlew build 
 
