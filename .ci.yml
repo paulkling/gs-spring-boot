@@ -6,5 +6,5 @@ build:
   info:
     - echo "Env:" ; env
     - java -version
-  run:  gradlew build 
+  run:  ./gradlew build 
 
