@@ -23,4 +23,4 @@ VOLUME /data
 WORKDIR /data
 
 # Define default command.
-CMD ["gradlew bootrun"]
+CMD ["bash"]
