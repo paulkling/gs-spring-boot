@@ -1,0 +1,9 @@
+build:
+  run:
+    integration: gradlew build
+    
+environment:
+  language: ruby
+  language_versions:
+          - 1.8.7
+          - 1.9.3
