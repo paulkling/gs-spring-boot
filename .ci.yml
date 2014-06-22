@@ -14,6 +14,5 @@ build:
     - ls -la
     - echo "done with info"
   run: 
-    - ls -la
     - gradlew build 
 
