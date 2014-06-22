@@ -8,5 +8,5 @@ build:
     - java -version
     - git clone https://github.com/paulkling/gs-spring-boot.git
     - ls -la
-  run: gradlew build 
+  run: gs-spring-boot/gradlew build 
 
