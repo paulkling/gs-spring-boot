@@ -16,10 +16,10 @@ RUN \
   apt-get install -y oracle-java7-installer
 
 # Define mountable directories.
-VOLUME ["/root/workspace/paulkling/gs-spring-boot"]
+VOLUME ["/data"]
 
 # Define working directory.
-WORKDIR /data
+WORKDIR /root/workspace/paulkling/gs-spring-boot
 
 # Define default command.
 CMD ["bash"]
