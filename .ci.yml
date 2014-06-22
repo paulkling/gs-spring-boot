@@ -7,4 +7,3 @@ build:
     - echo "Env:" ; env
     - java -version
   run:  gradlew build 
-
