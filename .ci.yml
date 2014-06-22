@@ -4,9 +4,8 @@ environment:
   
 build:
   info:
-    - pwd
     - ls -la
     - echo "Env:" ; env
     - java -version
-  run:  ./gradlew build 
+  run: gradlew build 
 
